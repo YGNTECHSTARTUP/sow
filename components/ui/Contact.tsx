@@ -2,8 +2,14 @@
 import React from 'react'
 
 import { Vortex } from './vortex';
-
+import { SocialIcon } from 'react-social-icons'
 const ContactMe = () => {
+  const urls = [
+    "https://api.whatsapp.com/send?phone=9494526965",              // WhatsApp
+    "https://www.linkedin.com/in/sowmya-yarramsetti-9ab36b246",   // LinkedIn
+    "https://www.instagram.com/sowmya_0416",     // Instagram
+    "mailto:ysowmya2004@gmail.com"               // Gmail
+  ];
   return (
     <div id="contact">
            <div className="w-[calc(100%-4rem)] mx-auto rounded-md  h-[30rem] overflow-hidden">
@@ -14,15 +20,13 @@ const ContactMe = () => {
         <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
           Connect With Me
         </h2>
-        <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
-          This is chemical burn. It&apos;ll hurt more than you&apos;ve ever been
-          burned and you&apos;ll have a scar.
-        </p>
+    
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-          <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
-            Order now
-          </button>
-          <button className="px-4 py-2  text-white ">Watch trailer</button>
+          {
+            urls.map((url,index)=>(
+            <SocialIcon url={url} key={index} fgColor="white" bgColor="transparent" style={{ height: 50, width: 50 }}/>
+            ))
+          }
         </div>
       </Vortex>
     </div>

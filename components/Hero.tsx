@@ -28,7 +28,10 @@ const Hero = () => {
 
         </Link>
     &nbsp;&nbsp;
-        <Button className="mt-4 bg-indigo-600 dark:text-primary hover:bg-fuchsia-400 hover:text-primary-foreground" >Hire Me</Button>
+    <Link href="mailto:ysowmya2004@gmail.com">
+    <Button className="mt-4 bg-indigo-600 dark:text-primary hover:bg-fuchsia-400 hover:text-primary-foreground" >Hire Me</Button>
+
+    </Link>
         
         </div>
     </div>
