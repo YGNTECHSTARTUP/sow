@@ -21,7 +21,7 @@ const ContactMe = () => {
           Connect With Me
         </h2>
     
-        <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
+        <div className="flex flex-col  items-center gap-4 mt-6">
           {
             urls.map((url,index)=>(
             <SocialIcon url={url} key={index} fgColor="white" bgColor="transparent" style={{ height: 50, width: 50 }}/>

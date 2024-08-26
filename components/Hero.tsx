@@ -24,7 +24,7 @@ const Hero = () => {
     </h2>
     <div className='flex  mx-auto text-center justify-center'>
         <Link href="/resume.pdf">
-        <Button className="mt-4 bg-indigo-600 dark:text-primary hover:bg-fuchsia-400 hover:text-primary-foreground"  >Check Out Me Resume</Button>
+        <Button className="mt-4 bg-indigo-600 dark:text-primary hover:bg-fuchsia-400 hover:text-primary-foreground"  >Check Out My Resume</Button>
 
         </Link>
     &nbsp;&nbsp;
