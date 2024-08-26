@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <BackgroundBeamsWithCollision>
-    <div>
+    <div id='#home'>
     <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl xl:text-8xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
       Hey, I&apos;m  Yarramsetti Sowmya {" "}
       <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">

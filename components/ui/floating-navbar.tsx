@@ -77,7 +77,8 @@ export const FloatingNav = ({
           </Link>
         ))}
      
-       
+       &nbsp;&nbsp;&nbsp;
+       &nbsp;
         
      
       </motion.div>
