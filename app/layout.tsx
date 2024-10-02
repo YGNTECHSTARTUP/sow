@@ -7,7 +7,7 @@ import { Josefin_Sans } from "next/font/google";
 const jose = Josefin_Sans({subsets:["latin"]})
 export const metadata: Metadata = {
   title: "Goli Bhargava",
-  description: "Portfolio of Goli Bhargava",
+  description: "Portfolio of Goli Bhargavaa",
 };
 
 export default function RootLayout({
