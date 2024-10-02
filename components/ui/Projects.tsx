@@ -4,37 +4,38 @@ import Link from 'next/link'
 import Image from 'next/image';
 
 const Projects = () => {
-    const civilEngineeringProjects = [
-        {
-          title: "Bridge Construction Over River X",
-          description: "This project focuses on the design and construction of a cable-stayed bridge over River X, incorporating advanced materials and seismic-resistant features.",
-          imageUrl: "https://example.com/bridge-construction.jpg",
-          link: "https://example.com/projects/bridge-construction"
-        },
-        {
-          title: "Sustainable Urban Drainage System",
-          description: "A project aimed at developing an eco-friendly urban drainage system to manage stormwater runoff and reduce flooding risks in metropolitan areas.",
-          imageUrl: "https://example.com/urban-drainage.jpg",
-          link: "https://example.com/projects/urban-drainage"
-        },
-        {
-          title: "Highway Expansion and Rehabilitation",
-          description: "This project involves the expansion and rehabilitation of a major highway, improving traffic flow and ensuring road safety with modern engineering solutions.",
-          imageUrl: "https://example.com/highway-expansion.jpg",
-          link: "https://example.com/projects/highway-expansion"
-        },
-        {
-          title: "Earthquake-Resistant Building Design",
-          description: "A project that focuses on designing buildings with innovative structural systems to withstand seismic activities in earthquake-prone regions.",
-          imageUrl: "https://example.com/earthquake-building.jpg",
-          link: "https://example.com/projects/earthquake-building"
-        },
-        {
-          title: "Smart City Infrastructure Development",
-          description: "An ambitious project to develop smart city infrastructure, integrating IoT technology with civil engineering to enhance urban living standards.",
-          imageUrl: "https://example.com/smart-city.jpg",
-          link: "https://example.com/projects/smart-city"
-        }
+    const EngineeringProjects = [
+      {
+        "title": "Security Incident Management API",
+        "description": "Developed a robust RESTful API for managing security incidents, featuring creation, updates, and retrieval capabilities. Integrated Spring Boot and H2 database for performance, with authentication, logging, and data validation.",
+        "imageUrl": "https://example.com/security-incident-api.jpg",
+        "link": "https://github.com/BhargavaGoli/IncidentReportUsingSpringBoot"
+      },
+      {
+        "title": "Quiz Platform using Spring Boot & PostgreSQL",
+        "description": "Built a full-featured quiz platform with user authentication and data persistence. Used Spring Boot and PostgreSQL to manage quiz questions, user responses, and scoring, ensuring scalability and smooth user experience.",
+        "imageUrl": "https://example.com/quiz-platform.jpg",
+        "link": "https://github.com/BhargavaGoli/Monolithic-Spring-Boot-Backend-Service-for-quiz-"
+      },
+      {
+        "title": "Web Security Analysis using Burp Suite",
+        "description": "Conducted ethical web security analysis using Burp Suite, discovering 5+ vulnerabilities on a less-secure website. Simulated a bus ticket purchase process to expose significant security risks, leading to recommendations for upgrades.",
+        "imageUrl": "https://example.com/web-security-analysis.jpg",
+        "link": "https://github.com/BhargavaGoli/web-security-analysis"
+      },
+      {
+        "title": "Freelance Web Scraping using BeautifulSoup",
+        "description": "Freelanced a web scraping project using Python and BeautifulSoup, targeting the RemoteOk API and Amazon. Extracted data efficiently, demonstrating practical knowledge of web scraping techniques.",
+        "imageUrl": "https://example.com/web-scraping.jpg",
+        "link": "https://github.com/BhargavaGoli/web-scraping"
+      },
+      {
+        "title": "Game Development with Python and Pygame",
+        "description": "Created an interactive game using Python and Pygame, focusing on engaging gameplay and an enhanced user experience.",
+        "imageUrl": "https://example.com/game-development.jpg",
+        "link": "https://github.com/BhargavaGoli/space-rocket"
+      }
+      
       ];
       
   return (
@@ -46,7 +47,7 @@ const Projects = () => {
         
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 text-center  '>
         {
-            civilEngineeringProjects.map((project,index)=><div key={index}>
+            EngineeringProjects.map((project,index)=><div key={index}>
 <div className=" w-full relative max-w-xs  ">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">

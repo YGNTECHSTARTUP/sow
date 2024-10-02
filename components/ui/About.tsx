@@ -14,27 +14,24 @@ const About = () => {
         <div className=' lg:flex'>
         <ul className="list-disc list-inside space-y-2 text-white text-sm lg:text-lg 2xl:text-xl ">
           <div className='flex justify-center '>
-          <Image src='/picrou.png' alt="sowmya" width={300} height={300} className='rounded-full lg:hidden' />
+          <Image src='/picrou.png' alt="Bhargava" width={300} height={300} className='rounded-full lg:hidden' />
           </div>
         
-    <li>Hey, I&apos;m <strong>Sowmya Yarramsetti</strong>, a 20-year-old student from Andhra Pradesh, India. I am a daughter, sister, friend, civil engineering enthusiast, and a passionate learner.</li>
-    <li>As my age suggests, I&apos;m a student who has completed a diploma in Civil Engineering, specializing in AutoCAD , and I am currently in my final year of B.Tech in Civil Engineering.</li>
-    <li>My journey in civil engineering started during my Diploma 1st year, where I developed a strong passion for design and construction.</li>
-    <li>I&apos;m proficient in tools like AutoCAD, STAAD.Pro, 3ds Max, CypeCAD, and Primavera, which have helped me create detailed designs and realistic visualizations for various projects.</li>
-    <li>I&apos;m eager to apply my expertise in a dynamic role where I can contribute to the successful execution of cutting-edge engineering projects, fostering innovation and excellence at every stage.</li>
-    <li>My experience includes streamlining design workflows and integrating various tools to enhance efficiency and shorten project timelines.</li>
-    <li>In my free time, I enjoy drawing, painting, traveling, and cooking.</li>
-    <li>I don&apos;t talk much over any platform, but I do like making friends—whether online or in real life, though I&apos;m somewhat introverted.</li>
-    <li>So, if you ever want to talk about anything, feel free to hit me up. I&apos;ll get back to you as soon as I&apos;m active/online.</li>
-    <li>That&apos;s pretty much everything I know about myself so far. If you have anything to share or want to connect, feel free to connect with me.</li>
-</ul>
+          <li>Hey, I&apos;m <strong>Goli Bhargava</strong>, a 20-year-old from Andhra Pradesh, India. I&apos;m a son, friend, web development enthusiast, and always eager to learn something new.</li> 
+<li>I completed my 10th grade with a perfect 10 GPA and went on to finish my intermediate with a decent percentage. Currently, I&apos;m pursuing my B.Tech at Sathyabama University.</li> 
+<li>My passion for web development began during my college years, and I&apos;ve worked on several projects in this field. Over time, I developed a strong interest in backend development, which led me to dive deep into Java and the Spring Framework.</li> 
+<li>I&apos;m proficient in solving Data Structures and Algorithms (DSA) problems in Java, and I regularly practice on platforms like LeetCode and CodeChef.</li> 
+<li>I&apos;m excited to apply my backend expertise in Java Spring Framework in a dynamic role where I can contribute to innovative projects and push the boundaries of what&apos;s possible.</li> 
+<li>When I&apos;m not coding, I enjoy chilling with Netflix on the weekends and surfing the web for interesting topics. I also love traveling and exploring new places.</li> 
+<li>Although I&apos;m a bit introverted, I&apos;m always open to making new connections. So, if you ever want to chat or collaborate, feel free to reach out—I&apos;ll get back to you whenever I&apos;m online.</li> 
+<li>That&apos;s a bit about me! If you&apos;d like to connect or share something, I&apos;m always happy to hear from new people.</li></ul>
           
           <div className='lg:ml-2'>
          
           <div className='text-center mx-auto flex justify-center 2xl:-mt-20 lg:justify-end flex-grow overflow-hidden'>
           
           
-          <Image src='/pic.jpg' alt="sowmya" width={500} height={500} className='rounded-full hidden lg:flex' />
+          <Image src='/pics.png' alt="Bhargava" width={500} height={500} className='rounded-full hidden lg:flex' />
 
           </div>
           </div>

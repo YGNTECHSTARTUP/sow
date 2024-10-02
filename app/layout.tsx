@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/ui/theme-provider";
 import { Josefin_Sans } from "next/font/google";
 const jose = Josefin_Sans({subsets:["latin"]})
 export const metadata: Metadata = {
-  title: "Yarramsetti Sowmya",
-  description: "Portfolio of Yarramsetti Sowmya",
+  title: "Goli Bhargava",
+  description: "Portfolio of Goli Bhargava",
 };
 
 export default function RootLayout({

@@ -5,10 +5,10 @@ import { Vortex } from './vortex';
 import { SocialIcon } from 'react-social-icons'
 const ContactMe = () => {
   const urls = [
-    "https://api.whatsapp.com/send?phone=9494526965",              // WhatsApp
-    "https://www.linkedin.com/in/sowmya-yarramsetti-9ab36b246",   // LinkedIn
-    "https://www.instagram.com/sowmya_0416",     // Instagram
-    "mailto:ysowmya2004@gmail.com"               // Gmail
+    "https://api.whatsapp.com/send?phone=9494662162",              // WhatsApp// LinkedIn
+    "https://github.com/BhargavaGoli",     // Instagram
+    "mailto:bhargava7771@gmail.com",
+    "https://linkedin.com/in/bhargavagoli"              // Gmail
   ];
   return (
     <div id="contact">
