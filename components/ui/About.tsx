@@ -19,7 +19,7 @@ const About = () => {
         
           <li>Hey, I&apos;m <strong>Goli Bhargava</strong>, a 20-year-old from Andhra Pradesh, India. I&apos;m a son, friend, web development enthusiast, and always eager to learn something new.</li> 
 <li>I completed my 10th grade with a perfect 10 GPA and went on to finish my intermediate with a decent percentage. Currently, I&apos;m pursuing my B.Tech at Sathyabama University.</li> 
-<li>My passion for web development began during my college years, and I&apos;ve worked on several projects in this field. Over time, I developed a strong interest in backend development, which led me to dive deep into Java and the Spring Framework.</li> 
+<li>My passion for backend development began during my college years, and I&apos;ve worked on several projects in this field. Over time, I developed a strong interest in backend development, which led me to dive deep into Java and the Spring Framework.</li> 
 <li>I&apos;m proficient in solving Data Structures and Algorithms (DSA) problems in Java, and I regularly practice on platforms like LeetCode and CodeChef.</li> 
 <li>I&apos;m excited to apply my backend expertise in Java Spring Framework in a dynamic role where I can contribute to innovative projects and push the boundaries of what&apos;s possible.</li> 
 <li>When I&apos;m not coding, I enjoy chilling with Netflix on the weekends and surfing the web for interesting topics. I also love traveling and exploring new places.</li> 
